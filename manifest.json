@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Share Cookies",
+  "version": "0.1",
+
+  "description": "Share Cookies",
+  "homepage_url": "https://github.com/namchu2011/sharecookies",
+  
+  "icons": {
+    "96": "icon.png"
+  },
+
+  "permissions": [
+  	"cookies",
+  	"tabs",
+    "notifications",
+  	"<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Share Cookies",
+    "default_popup": "popup.html"
+  }
+}
